@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+	<title>Flat Earth Sports</title>
+</head>
+<body>
+
+	<header class="header">
+		<div id="header"></div>
+	</header>
+	<br>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="newsTickerCon">
+				<ul class="newsTicker">
+					<a></a>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+
+	<div class="row" id="mainDIV">
+		
+		<div class="col-md-3" id="scheduleDIV">
+			<br>
+			<div class="dropdown">
+  			  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Choose Week</button>
+  			  <div id="weekSelector" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    			<a class="dropdown-item" id="week1" data-week="1">Week 1</a>
+    		  <div id="schedule1"></div>
+    			<a class="dropdown-item" id="week2" data-week="2">Week 2</a>
+    		  <div id="schedule2"></div>
+    			<a class="dropdown-item" id="week3" data-week="3">Week 3</a>
+    		  <div id="schedule3"></div>
+    			<a class="dropdown-item" id="week4" data-week="4">Week 4</a>
+    		  <div id="schedule4"></div>
+    			<a class="dropdown-item" id="week5" data-week="5">Week 5</a>
+    		  <div id="schedule5"></div>
+    			<a class="dropdown-item" id="week6" data-week="6">Week 6</a>
+    		  <div id="schedule6"></div>
+    			<a class="dropdown-item" id="week7" data-week="7">Week 7</a>
+    		  <div id="schedule7"></div>
+    			<a class="dropdown-item" id="week8" data-week="8">Week 8</a>
+    		  <div id="schedule8"></div>
+   				<a class="dropdown-item" id="week9" data-week="9">Week 9</a>
+    		  <div id="schedule9"></div>
+    			<a class="dropdown-item" id="week10" data-week="10">Week 10</a>
+    		  <div id="schedule10"></div>
+    			<a class="dropdown-item" id="week11" data-week="11">Week 11</a>
+    		  <div id="schedule11"></div>
+   				<a class="dropdown-item" id="week12" data-week="12">Week 12</a>
+    		  <div id="schedule12"></div>
+    			<a class="dropdown-item" id="week13" data-week="13">Week 13</a>
+    		  <div id="schedule13"></div>
+    			<a class="dropdown-item" id="week14" data-week="14">Week 14</a>
+    		  <div id="schedule14"></div>
+    			<a class="dropdown-item" id="week15" data-week="15">Week 15</a>
+    		  <div id="schedule15"></div>
+    			<a class="dropdown-item" id="week16" data-week="16">Week 16</a>
+    		  <div id="schedule16"></div>
+    			<a class="dropdown-item" id="week17" data-week="17">Week 17</a>
+    		  <div id="schedule17"></div>
+  			</div>
+  		  <div id="schedule"></div>
+		</div>
+	
+		</div> <!-- end of scheduleDIV -->
+		<br>
+
+		<div class="col-md-8" id="tvDIV">
+			 <img src="images/OLD-SCHOOL-TV.png" id="TV">
+			 <div class="playerTV">
+			 	<div id="player"></div>
+			 </div>
+		</div>
+		<br>
+
+	</div> <!--end of mainDIV -->
+	
+		<div class="col-md-12" id="chatBox">
+			<h3>Message Board</h3>
+			<input id="username" type="text" placeholder="Name"><br/>
+  			<input id="text" type="text" placeholder="Message"><br/>
+ 			<button id="post">Post</button><br/>
+  			<div id="results"></div>
+		</div>
+
+	
+	<hr>
+	<footer>
+		<div class="row">
+    		Copyright &copy; 2017 Flat Earth Sports<br>
+    		<p id="tagline">Where Fantasy and Reality Get Real Blurry</p>
+    	</div>
+	</footer>
+	<br>
+
+</div> <!---end container -->
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+<script src='https://cdn.firebase.com/js/client/2.4.0/firebase.js'></script>
+<script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<script type="text/javascript" src="script/calendar.js"></script>
+
+<script type="text/javascript" src="script/video.js"></script>
+
+<script type="text/javascript" src="script/chat.js"></script>
+
+<script type="text/javascript" src="script/ticker.js"></script>
+
+
+</body>
+</html>

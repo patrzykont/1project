@@ -1,0 +1,150 @@
+body {
+	background-image: url("../images/messyliving.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: fill;
+}
+
+
+header{
+	height: 275px;
+	width:100%;
+	object-fit: fill;
+	background-image: url("../images/flatcatearth2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+ul {
+	list-style: none;
+	font-family: gotham, "helvetica Neue", helvetica, arial, sans-serif;
+	font-weight: bold;
+	padding:0;
+}
+
+.newsTickerCon{
+	background: rgba(0,0,0,0.7);
+	border: 2px solid #000;
+	border-radius: 15px;
+	overflow: hidden
+}
+
+.newsTickerCon a {
+	background:rgba(e,e,e,e) no-repeat scroll left center;
+	color: #fff;
+	font-size: 25px;
+	line-height: 35px;
+	padding: 15px;
+	white-space: nowrap;
+	display:inline;
+	text-decoration: none;
+	height:100%;
+	text-shadow: 1px 1px #32CD32;
+}
+
+button {
+    background-color: #32CD32;
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#schedule{
+	width: 400px;
+    height: 700px;
+    background:rgba(0,0,0,0.8);
+    border: 2px solid #000;
+	border-radius: 15px;
+    color: #ffffff;
+    overflow-y: auto;
+    max-width: 280px;
+    max-height: 550px;
+    text-shadow: 1px 1px #32CD32;
+    font-size: 20px;
+}
+
+.dropdown-item {
+	cursor: pointer;
+}
+
+.playerTV {
+	border-style: solid;
+    border-width: 50px 50px 50px 50px;
+    border-color: #000000;
+}
+
+#TV {
+	position:absolute;
+	z-index: 3;
+	pointer-events: none;
+}
+
+.playerTV{
+	position:absolute;
+	top: 45px;
+	left: 37px;
+	z-index: 2;
+	background-color: #000000;
+	border-top: 20px, #000000;
+	border-border: 20px, #000000; 
+}
+
+h3 {
+	width: 200px;
+	border: 2px solid #000;
+	border-radius: 15px;
+	background: rgba(0,0,0,0.8);
+	font-size: 25px;
+	text-shadow: 1px 1px #32CD32;
+	color: white;
+	padding: 10px;
+}
+
+#chatBox{
+	float: right;
+}
+
+.msg {
+    margin: 1px;
+    padding: 5px;
+    width: 275px;
+    background: rgba(0,0,0,0.8);
+    border: 2px solid #000;
+	border-radius: 15px;
+    float: left;
+    color: #ffffff;
+    text-shadow: 1px 1px #32CD32;
+    font-size: 15px;
+}
+
+#username, #text {
+    margin: 5px 0px;
+}
+
+footer {
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 3px 3px #32CD32;
+	color: #000000;
+	padding: 10px;
+}
+
+#tagline {
+	text-align: center;
+	font-size: 25px;
+	text-shadow: 2px 2px #32CD32;
+	color: #000000;
+	padding: 10px;
+}
